@@ -171,69 +171,69 @@ img{
   display: none !important;
 }
 /* ---------------------------- */
-/* concept
+/* about
 /* ---------------------------- */
-.concept-lead{
+.about-lead{
   text-align: center;
   font-size: 3rem;
   margin-bottom: 60px;
   font-weight: bold;
   line-height: 1.67;
 }
-.concept-content{
+.about-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 70px;
 }
-.concept-text{
+.about-text{
   max-width: 440px;
   line-height: 1.87;
   font-weight: bold;
 }
-.concept-img-wrapper{
+.about-img-wrapper{
   width: 44%;
   margin-left: 20px;
 }
 
 /* ---------------------------- */
-/* works
+/* detail
 /* ---------------------------- */
-.bg-works{
-  background-image: url(../img/works-bgi@2x.jpg);
+.bg-detail{
+  background-image: url(../img/detail-bgi@2x.jpg);
   background-size: cover;
   background-position: center;
 }
-.works-list{
+.detail-list{
   max-width: 1000px;
   margin: 0 auto 80px;
   padding: 0 50px;
   display: flex;
   justify-content: space-between;
 }
-.works-item{
+.detail-item{
   width: 32%;
   background-color: #fff;
 }
-.works-item a{
+.detail-item a{
   color: #141414;
   text-decoration: none;
 }
-.works-list-text{
+.detail-list-text{
   padding: 25px 20px;
 }
 
 
 /* ---------------------------- */
-/* service
+/* link
 /* ---------------------------- */
-.service-list{
+.link-list{
   display: flex;
 }
-.service-item{
+.link-item{
   width: 33.3%;
 }
-.service-item a{
+.link-item a{
   text-decoration: none;
   display: block;
   width: 100%;
@@ -245,27 +245,27 @@ img{
   font-style: italic;
   transition: .3s;
 }
-.service-item a:hover{
+.link-item a:hover{
   background-color: rgba(40,47,53,.7);
   transition: .3s;
 }
-.service-item.service_1{
-  background-image: url(../img/service-img01@2x.jpg);
+.link-item.link_1{
+  background-image: url(../img/link-img01@2x.jpg);
 }
-.service-item.service_2{
-  background-image: url(../img/service-img02@2x.jpg);
+.link-item.link_2{
+  background-image: url(../img/link-img02@2x.jpg);
 }
-.service-item.service_3{
-  background-image: url(../img/sevice-img03@2x.jpg);
+.link-item.link_3{
+  background-image: url(../img/link-img03@2x.jpg);
 }
 
 /* ---------------------------- */
-/* contact
+/* access
 /* ---------------------------- */
-.bg-contact{
-  background-image: url(../img/contact-bgi@2x.jpg);
+.bg-access{
+  background-image: url(../img/access-bgi@2x.jpg);
 }
-.contact-text{
+.access-text{
   text-align: center;
   color: #fff;
   font-size: 2rem;
@@ -359,9 +359,11 @@ footer address .tel {
 .copyright {
 	clear: both;
 	text-align: center;
-	background: #333;	/*背景色*/
+	/* background: #333;	 */
 	color: #fff;		/*文字色*/
 	padding: 20px;		/*ボックス内の余白*/
+  /* margin: 0 20px 8px 8px;
+  width:100%; */
 }
 .copyright a {text-decoration: none;color: #fff;}
 .copyright .pr {display: block;}
@@ -489,50 +491,50 @@ footer address .tel {
   }
 
     /* ---------------------------- */
-    /* concept_sp
+    /* about_sp
     /* ---------------------------- */
-    .concept-lead{
+    .about-lead{
       font-size: 2rem;
       margin-bottom: 32px;
     }
-    .concept-content{
+    .about-content{
       display: block;
       margin-bottom: 40px;
     }
-    .concept-text{
+    .about-text{
       margin-bottom: 30px;
     }
-    .concept-img-wrapper{
+    .about-img-wrapper{
       width: 100%;
       margin: 0;
     }
 
     /* ---------------------------- */
-    /* works_sp
+    /* detail_sp
     /* ---------------------------- */
-    .works-list{
+    .detail-list{
       display: block;
       padding: 0 4vw;
       margin-bottom: 80px;
     }
-    .works-item{
+    .detail-item{
       width: 320px;
       max-width: 100%;
       margin: 0 auto 30px;
     }
 
     /* ---------------------------- */
-    /* service_sp
+    /* link_sp
     /* ---------------------------- */
-    .service-list{
+    .link-list{
       display: block;
       margin-bottom: 40px;
     }
-    .service-item{
+    .link-item{
       width: 100%;
       margin-bottom: 30px;
     }
-    .service-item a{
+    .link-item a{
       line-height: 250px;
     }
 

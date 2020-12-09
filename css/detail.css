@@ -1,0 +1,355 @@
+/* ---------------------------- */
+/* Base
+/* ---------------------------- */
+html{
+  font-size: 62.5%;
+ }
+ body{
+   font-size: 1.6rem;
+   letter-spacing: .05em;
+   font-family: 'Noto Serif','Noto Serif JP', serif;
+   color: #171717;
+ }
+ img{
+   vertical-align: bottom;
+   width: 100%;
+ }
+
+ /* ---------------------------- */
+ /* header
+ /* ---------------------------- */
+ .header{
+   padding: 19px 30px;
+   position: absolute;
+   top: 0;
+   left: 50%;
+   z-index: 1;
+   transform: translateX(-50%);
+   box-sizing: border-box;
+   width: 100%;
+   transition: .3s;
+
+ }
+ .header-inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ .header.fixed{
+   position: fixed;
+   background-color: #282f35;
+   padding: 30px;
+   width: 100%;
+   transition: .3s;
+ }
+ .header a{
+   color: #fff;
+   text-decoration: none;
+   transition: .3s;
+   font-weight: bold;
+   font-style: italic;
+ }
+ .header a:hover{
+   opacity: .7;
+   transition: .3s;
+ }
+ .site-title{
+   font-size: 2.6rem;
+ }
+ .nav-list{
+   display: flex;
+ }
+ .nav-item{
+   margin-right: 30px;
+ }
+ .nav-item:last-of-type{
+   margin-right: 0;
+ }
+ .burger-btn{
+   display: none;
+ }
+
+ /* ---------------------------- */
+ /* page-title
+ /* ---------------------------- */
+ .page-title-wrapper{
+   height: 453px;
+   position: relative;
+   background-image: url(../img/access-page-bgi@2x.jpg);
+ }
+.page-title{
+  font-size: 6rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding-top: 186px;
+  color: #fff;
+}
+.page-title-bottom{
+  font-size: 9rem;
+  color: #fff;
+  opacity: .1;
+  margin: 20px 0 0 48px;
+}
+
+
+/* ---------------------------- */
+/* footer
+/* ---------------------------- */
+.footer-nav{
+  display: flex;
+}
+.footer-item{
+  margin: 0 10px;
+  width: 48%;
+}
+/*footerボックス*/
+footer {
+	clear: both;overflow: hidden;
+	border-top: 5px solid #000;	/*上の線の幅、線種、色*/
+	background: #444;	/*背景色*/
+	color: #fff;		/*文字色*/
+	padding-top: 20px;	/*上に空けるボックス内の余白*/
+}
+/*footer内のinner*/
+footer .inner {
+	padding: 0 50px;	/*上下、左右へのブロック内余白*/
+}
+/*リンクテキスト、マウスオン時の文字色*/
+footer a, footer a:hover {
+	color: #fff;
+}
+/*フッター内のh2タグ*/
+footer h2 {
+	font-size: 200%;	/*文字サイズ*/
+	font-weight: normal;
+	text-align: center;	/*内容をセンタリング*/
+	letter-spacing: 0.1em;	/*文字間隔を少し広く*/
+}
+/*フッター内のaddress（電話番号ブロック）タグ*/
+footer address {
+	font-style: normal;
+	background: #333;		/*背景色*/
+	border-radius: 10px;	/*角丸の指定*/
+	text-align: center;		/*内容をセンタリング*/
+	line-height: 1.5;		/*行間*/
+	padding: 5px;			/*ボックス内の余白*/
+}
+/*フッター内のaddress（電話番号の行）タグ*/
+footer address .tel {
+	font-size: 40px;	/*文字サイズ*/
+	background: url(../images/icon_tel.png) no-repeat left center / 30px;	/*電話番号アイコンの読み込み*/
+	padding-left: 45px;	/*電話番号アイコンの幅をここで調整する*/
+}
+
+
+/*ボックス全体*/
+#footermenu {
+	clear: both;overflow: hidden;
+	font-size: 80%;	/*文字サイズを少し小さく*/
+	margin-left: -1%;
+	padding: 20px 0;
+}
+/*１列分の設定*/
+#footermenu ul {
+	float: left;	/*左に回り込み*/
+	width: 24%;		/*今回は４列作ったので、下のmarginを含めて25%になるよう指定。５列にするならこの行は19%にする。*/
+	margin-left: 1%;
+}
+/*メニュー１個あたりの設定*/
+#footermenu ul li {
+	padding: 0 10px;	/*上下、左右への余白*/
+}
+/*見出し*/
+#footermenu li.title {
+	font-weight: bold;	/*太字にする*/
+	background: rgba(0,0,0,0.3);	/*背景色*/
+	border-radius: 2px;	/*角丸のサイズ*/
+}
+/*リンクテキスト*/
+#footermenu a {
+	text-decoration: none;
+	opacity: 0.6;	/*透明度。70%色がでた状態の事。*/
+}
+/*マウスオン時*/
+#footermenu a:hover {
+	opacity: 1;	/*透明度。100%色がでた状態の事。*/
+}
+
+/*コピーライト*/
+.copyright {
+	clear: both;
+	text-align: center;
+	/* background: #333;	 */
+	color: #fff;		/*文字色*/
+	padding: 20px;		/*ボックス内の余白*/
+  /* margin: 0 20px 8px 8px;
+  width:100%; */
+}
+.copyright a {text-decoration: none;color: #fff;}
+.copyright .pr {display: block;}
+
+ /* ---------------------------- */
+ /* CarouselSwiper
+ /* ---------------------------- */
+ .mb60{
+ 	margin-bottom: 60px;
+ }
+ .swiper-container{
+ 	text-align: center;
+ }
+ .swiper-container .swiper-slide img{
+   /*sliderコンテンツの画像幅はここで調整*/
+ 	max-width: 500px;
+ 	width: 100%;
+ 	height: auto;
+ }
+ .prettyprint{
+ 	border: none;
+ 	background: #fafafa;
+ 	color: #697d86;
+ }
+ #thumbs {
+       height: 20%;
+       box-sizing: border-box;
+       padding: 10px 0;
+ }
+ #thumbs .swiper-slide {
+     width: 20%;
+     height: 100%;
+     opacity: 0.2;
+     cursor: pointer;
+ }
+ #thumbs .swiper-slide-active {
+     opacity: 1;
+ }
+
+
+ @media screen and (max-width:768px){
+   /* ---------------------------- */
+   /* base_sp
+   /* ---------------------------- */
+
+
+
+   /* ---------------------------- */
+   /* header_sp
+   /* ---------------------------- */
+   .header{
+     padding: 30px 4vw 0;
+     /*奥の手を使用*/
+     z-index: 100;
+   }
+   .header-nav{
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     background-color: #282F35;
+   }
+   .nav-list{
+     height: 100%;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   .nav-item{
+     margin: 0 0 30px;
+   }
+   .nav-item:last-of-type{
+     margin-bottom: 0;
+   }
+
+   .burger-btn{
+     display: block;
+     position: absolute;
+     top: 30px;
+     right: 4vw;
+   }
+   .burger-btn .bar{
+     display: block;
+     height: 3px;
+     width: 30px;
+     background-color: #fff;
+   }
+   .bar_top{
+     margin-bottom: 8px;
+   }
+   .bar_mid{
+     margin-bottom: 8px;
+   }
+
+   /* ハンバーガーメニューが開いたとき */
+   .burger-btn.cross .bar_top{
+     transform: rotate(45deg) translate(8px,8px);
+     transition: .3s;
+   }
+   .burger-btn.cross .bar_mid{
+     opacity: 0;
+     transition: .3s;
+   }
+   .burger-btn.cross .bar_bottom{
+     transform: rotate(-45deg) translate(8px,-8px);
+     transition: .3s;
+   }
+   body.noscroll{
+     overflow: hidden;
+   }
+
+   button{
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     outline: none;
+     padding: 0;
+     appearance: none;
+   }
+
+   /* ---------------------------- */
+   /* header_sp
+   /* ---------------------------- */
+   .checkbox-list{
+     display: block;
+   }
+   .checkbox-item{
+     margin-right: 0;
+   }
+
+   /* ---------------------------- */
+   /* footer_sp
+   /* ---------------------------- */
+   /*footer内のinner*/
+   footer .inner {
+     padding: 0 3%;	/*上下、左右へのブロック内余白*/
+   }
+   /*footer内の２カラムブロックを１カラムにする*/
+   .footer-nav{
+     display: block;
+     margin: 0 20px 8px 8px;
+     width: 100%;
+   }
+   .footer-item{
+     margin: 0 20px 8px 8px;
+     width: 100%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }

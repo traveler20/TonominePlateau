@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ギャラリー | Tonomine Plateau</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700|Noto+Serif:400,700,700i&display=swap&subset=japanese" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/detail.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+  <!-- <link rel="stylesheet" href="../css/style.css"> -->
+</head>
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="site-title"><a href="../index.html">Tonomine Plateau</a></h1>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="../index.html#about">ABOUT</a></li>
+          <li class="nav-item"><a href="../detail/index.html">DETAIL</a></li>
+          <li class="nav-item"><a href="../index.html#link">LINK</a></li>
+          <li class="nav-item"><a href="../index.html#access">ACCESS</a></li>
+        </ul>
+      </nav>
+      <button class="burger-btn">
+        <span class="bar bar_top"></span>
+        <span class="bar bar_mid"></span>
+        <span class="bar bar_bottom"></span>
+      </button>
+    </div>
+  </header>
+  <!-- //header -->
+
+  <!-- main -->
+  <main>
+    <!-- page-title -->
+    <div class="page-title-wrapper">
+      <h2 class="page-title">Gallery</h2>
+      <div class="page-title-bottom">Detail</div>
+    </div>
+    <!-- //page-title -->
+
+    <!--スライドする画像部分-->
+    <div id="slider" class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="#"><img src="../img/thumb_1.png" ></a></div>
+        <div class="swiper-slide"><a href="#"><img src="../img/thumb_2.png" ></a></div>
+        <div class="swiper-slide"><a href="#"><img src="../img/thumb_3.png" ></a></div>
+        <div class="swiper-slide"><a href="#"><img src="../img/thumb_1.png" ></a></div>
+        <div class="swiper-slide"><a href="#"><img src="../img/thumb_2.png" ></a></div>
+        <div class="swiper-slide"><a href="#"><img src="../img/thumb_3.png" ></a></div>
+      </div>
+      <!--スライド画像の矢印部分-->
+      <div class="swiper-button-prev swiper-button-white"></div>
+      <div class="swiper-button-next swiper-button-white"></div>
+    </div>
+
+    <!--スライド画像のサムネイル部分-->
+    <div id="thumbs" class="swiper-container mb60">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../img/thumb_1.png" ></div>
+        <div class="swiper-slide"><img src="../img/thumb_2.png" ></div>
+        <div class="swiper-slide"><img src="../img/thumb_3.png" ></div>
+        <div class="swiper-slide"><img src="../img/thumb_1.png" ></div>
+        <div class="swiper-slide"><img src="../img/thumb_2.png" ></div>
+        <div class="swiper-slide"><img src="../img/thumb_3.png" ></div>
+      </div>
+    </div>
+
+  </main>
+  <!-- //main -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <!-- <div class="inner"> -->
+    <div class="footer-nav">
+      <section class="footer-item">
+        <h2>Location</h2>
+        <a href="https://template-party.com/file/pickup_googlemap.html" target="_blank">GoogleMapで地図を貼り付けたい</a>人は解説がありますのでご覧下さい。
+      </section>
+
+      <section class="footer-item">
+        <h2>Open</h2>
+        <p>※イベント時以外、夜間照明はありません。</p>
+        <p>
+          冬季は積雪のため通行止め<br>
+          車で播但連絡道路、神崎南ランプから約40分
+        </p>
+        <address>
+          〒679-3104<br>
+          兵庫県神崎郡神河町川上801
+        </address>
+      </section>
+    </div>
+
+    <div id="footermenu">
+      <ul>
+        <li class="title">神河町公式</li>
+        <li><a href="#">神河町ホームページ</a></li>
+        <li><a href="#">神河町観光協会</a></li>
+        <li><a href="#">砥峰高原紹介ページ</a></li>
+        <li><a href="#">砥峰高原ホテルリラクシア紹介ページ</a></li>
+      </ul>
+      <ul>
+        <li class="title">公式のご案内PDFデータ</li>
+        <li><a href="#">砥峰高原のご案内PDF</a></li>
+        <li><a href="#">神河町お弁当注文書</a></li>
+      </ul>
+      <ul>
+        <li class="title">その他</li>
+        <li><a href="#">リラクシアホームページ</a></li>
+      </ul>
+      <ul>
+        <li class="title">サイト運営者</li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">GitHub</a></li>
+      </ul>
+    </div>
+    <!--/footermenu-->
+
+    <small class="copyright">&copy;Tonomine Plateau all rights reserved</small>
+  </footer>
+  <!-- //footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+  <script src="../js/detail.js"></script>
+</body>
+</html>
