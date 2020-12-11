@@ -202,7 +202,7 @@ img{
 /* detail
 /* ---------------------------- */
 .bg-detail{
-  background-image: url(../img/detail-bgi.jpg);
+  background-image: url(../img/detail-bgi.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -276,7 +276,7 @@ img{
 /* access
 /* ---------------------------- */
 .bg-access{
-  background-image: url(../img/access-bgi.jpg);
+  background-image: url(../img/access-bgi.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
