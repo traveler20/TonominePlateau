@@ -77,7 +77,11 @@ html{
  .page-title-wrapper{
    height: 453px;
    position: relative;
-   background-image: url(../img/access-page-bgi@2x.jpg);
+   background-image: url(../img/detail-page-bgi.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-bottom: 70px;
  }
 .page-title{
   font-size: 6rem;
@@ -93,6 +97,43 @@ html{
   opacity: .1;
   margin: 20px 0 0 48px;
 }
+
+
+/* ---------------------------- */
+/* CarouselSwiper
+/* ---------------------------- */
+.mb60{
+ margin-bottom: 60px;
+}
+.swiper-container{
+ text-align: center;
+}
+.swiper-container .swiper-slide img{
+  /*sliderコンテンツの画像幅はここで調整*/
+ max-width: 500px;
+ width: 100%;
+ height: auto;
+}
+.prettyprint{
+ border: none;
+ background: #fafafa;
+ color: #697d86;
+}
+#thumbs {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+}
+#thumbs .swiper-slide {
+    width: 20%;
+    height: 100%;
+    opacity: 0.2;
+    cursor: pointer;
+}
+#thumbs .swiper-slide-active {
+    opacity: 1;
+}
+
 
 
 /* ---------------------------- */
@@ -191,40 +232,6 @@ footer address .tel {
 .copyright a {text-decoration: none;color: #fff;}
 .copyright .pr {display: block;}
 
- /* ---------------------------- */
- /* CarouselSwiper
- /* ---------------------------- */
- .mb60{
- 	margin-bottom: 60px;
- }
- .swiper-container{
- 	text-align: center;
- }
- .swiper-container .swiper-slide img{
-   /*sliderコンテンツの画像幅はここで調整*/
- 	max-width: 500px;
- 	width: 100%;
- 	height: auto;
- }
- .prettyprint{
- 	border: none;
- 	background: #fafafa;
- 	color: #697d86;
- }
- #thumbs {
-       height: 20%;
-       box-sizing: border-box;
-       padding: 10px 0;
- }
- #thumbs .swiper-slide {
-     width: 20%;
-     height: 100%;
-     opacity: 0.2;
-     cursor: pointer;
- }
- #thumbs .swiper-slide-active {
-     opacity: 1;
- }
 
 
  @media screen and (max-width:768px){

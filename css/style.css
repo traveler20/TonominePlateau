@@ -18,6 +18,7 @@ img{
 /*sectionごとの余白設定*/
 .section-wrapper{
   padding: 100px 0 70px;
+  /* background-color: #808080; */
 }
 /*section-titleの設定*/
 .section-title{
@@ -53,6 +54,7 @@ img{
 }
 .text-right{
   text-align: right;
+  /* color: #000; */
 }
 .text-white{
   color: #fff;
@@ -200,9 +202,10 @@ img{
 /* detail
 /* ---------------------------- */
 .bg-detail{
-  background-image: url(../img/detail-bgi@2x.jpg);
+  background-image: url(../img/detail-bgi.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .detail-list{
   max-width: 1000px;
@@ -232,6 +235,7 @@ img{
 }
 .link-item{
   width: 33.3%;
+  /* height:320px; */
 }
 .link-item a{
   text-decoration: none;
@@ -250,20 +254,32 @@ img{
   transition: .3s;
 }
 .link-item.link_1{
-  background-image: url(../img/link-img01@2x.jpg);
+  background-image: url(../img/link-img01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .link-item.link_2{
-  background-image: url(../img/link-img02@2x.jpg);
+  background-image: url(../img/link-img02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .link-item.link_3{
-  background-image: url(../img/link-img03@2x.jpg);
+  background-image: url(../img/link-img03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* ---------------------------- */
 /* access
 /* ---------------------------- */
 .bg-access{
-  background-image: url(../img/access-bgi@2x.jpg);
+  background-image: url(../img/access-bgi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .access-text{
   text-align: center;
